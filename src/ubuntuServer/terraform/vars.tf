@@ -4,6 +4,3 @@ variable "proxmox_host" {
 variable "privatekey" {
   default = "id_rsa"
 }
-variable "publickey" {
-  default = "id_rsa.pub"
-}
