@@ -1,0 +1,8 @@
+src/ubuntuServer/terraform/id_rsa
+src/ubuntuServer/terraform/id_rsa.pub
+src/ubuntuServer/terraform/.terraform.lock.hcl
+src/ubuntuServer/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/LICENSE
+src/ubuntuServer/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/README.md
+src/ubuntuServer/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/terraform-provider-proxmox_v2.9.11
+src/ubuntuServer/terraform/terraform.tfstate
+src/ubuntuServer/terraform/terraform.tfstate.backup

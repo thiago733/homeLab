@@ -22,10 +22,6 @@ resource "proxmox_vm_qemu" "ubuntuserver" {
   memory          = 4096
   agent           = 1
   ssh_user        = "root"
-  ssh_private_key = 
-EOF
+  ssh_private_key = var.privatekey
   os_type         = "cloud-init"
-  sshkeys         = <<EOF
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCamAxaNF+eNxWT2sx5uknmM93FfyOU7YaKNUmfmZrrUicL0ZzylPR1bRssab70RN/Oys2nMJX+LF5OWlikwP05gFCVWz83CP8qsFkNvMnA8z+QIo+rivemdzmvyasOkHPUKFXgoyL1Yi2uIojHvBBdTB6zSdNjx0X+fEZJuf0akMYTXMsqSA9flqJVShG64WXJuqp1FzUN3ekD8VyaK1FhD2N6LcgCsITeW59JUbPUIOmCi5wRtC5quxd/f7/IVxE26suEhrvck/ahKgXr6Z/qy7rJoDfMK2k7dYR2/S7KJgOnjtaV9ipnwwGrJz8WsrOFQXxTZpQ79sLoXrfC9fnD azuread\thiagofortes@DIGIX087
-EOF
 }
