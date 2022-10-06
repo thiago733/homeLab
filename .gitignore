@@ -6,3 +6,9 @@ src/ubuntuServer/terraform/.terraform/providers/registry.terraform.io/telmate/pr
 src/ubuntuServer/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/terraform-provider-proxmox_v2.9.11
 src/ubuntuServer/terraform/terraform.tfstate
 src/ubuntuServer/terraform/terraform.tfstate.backup
+infra/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/LICENSE
+infra/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/README.md
+infra/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/terraform-provider-proxmox_v2.9.11
+infra/terraform/.terraform.lock.hcl
+infra/terraform/terraform.tfstate
+infra/terraform/terraform.tfstate.backup
