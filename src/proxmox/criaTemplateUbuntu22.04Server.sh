@@ -3,7 +3,7 @@ CHAVE_PUBLICA=/root/.ssh/id_rsa.pub
 ID_VIRTUALMACHINE=7000
 IMAGEM=jammy-server-cloudimg-amd64.img
 MEMORIA_RAM=2048
-NOME_DO_TEMPLATE=Ubuntu22.04Server
+NOME_DO_TEMPLATE=UbuntuServer2204
 URL=https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 VCORE=2
 
@@ -17,7 +17,7 @@ qm set $ID_VIRTUALMACHINE --boot c --bootdisk scsi0
 qm set $ID_VIRTUALMACHINE --serial0 socket --vga serial0
 qm set $ID_VIRTUALMACHINE --agent 1
 qm set $ID_VIRTUALMACHINE --ciuser ansible --cipassword ansible
+qm set $ID_VIRTUALMACHINE --ipconfig0  ip=dhcp
 qm set $ID_VIRTUALMACHINE --machine q35
 qm set $ID_VIRTUALMACHINE --sshkey $CHAVE_PUBLICA
-qm template $ID_VIRTUALMACHINE
 rm -rf $IMAGEM*
