@@ -13,3 +13,9 @@ infra/terraform/.terraform.lock.hcl
 infra/terraform/terraform.tfstate
 infra/terraform/terraform.tfstate.backup
 *.img
+src/piHole/.terraform.lock.hcl
+src/piHole/terraform.tfstate
+src/piHole/terraform.tfstate.backup
+src/piHole/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/LICENSE
+src/piHole/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/terraform-provider-proxmox_v2.9.11
+src/piHole/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.11/linux_amd64/README.md
