@@ -12,3 +12,4 @@ infra/terraform/.terraform/providers/registry.terraform.io/telmate/proxmox/2.9.1
 infra/terraform/.terraform.lock.hcl
 infra/terraform/terraform.tfstate
 infra/terraform/terraform.tfstate.backup
+*.img
