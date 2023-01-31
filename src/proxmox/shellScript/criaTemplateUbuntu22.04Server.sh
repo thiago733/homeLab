@@ -13,7 +13,7 @@ wget $IMAGEM $URL
 qm create $ID_VIRTUALMACHINE --cores $VCORE --memory $MEMORIA_RAM --name $NOME_DO_TEMPLATE --net0 virtio,bridge=vmbr0
 qm importdisk $ID_VIRTUALMACHINE $IMAGEM local-btrfs
 qm set $ID_VIRTUALMACHINE --scsihw virtio-scsi-pci --scsi0 local-btrfs:$ID_VIRTUALMACHINE/vm-$ID_VIRTUALMACHINE-disk-0.raw
-qm set $ID_VIRTUALMACHINE --ide2 size=4GB local-btrfs:cloudinit
+qm set $ID_VIRTUALMACHINE --ide2 local-btrfs:cloudinit
 qm set $ID_VIRTUALMACHINE --boot c --bootdisk scsi0
 qm set $ID_VIRTUALMACHINE --serial0 socket --vga serial0
 qm set $ID_VIRTUALMACHINE --agent 1
