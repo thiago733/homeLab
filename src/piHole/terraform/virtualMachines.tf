@@ -1,7 +1,7 @@
 provider "proxmox" {
   pm_api_url          = "https://proxmox:8006/api2/json"
-  pm_api_token_id     = "devops@pam!token"
-  pm_api_token_secret = "4cc3da5d-ece4-4563-b968-abfff0054a41"
+  pm_api_token_id     = "terraform-prov@pve!terraform-token"
+  pm_api_token_secret = "4443f2d5-2f37-4509-8a17-19d8e91c7199"
   pm_tls_insecure     = true
 }
 

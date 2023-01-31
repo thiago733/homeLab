@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -sSL https://install.pi-hole.net | bash
+curl -fsSL https://install.pi-hole.net | bash
