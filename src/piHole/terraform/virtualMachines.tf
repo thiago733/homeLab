@@ -14,7 +14,7 @@ resource "proxmox_vm_qemu" "piHole" {
   cores       = 4
   scsihw      = "virtio-scsi-pci"
   bootdisk    = "scsi0"
-  agent       = 1
+  agent       = 0
   disk {
     slot    = 0
     size    = "32G"
