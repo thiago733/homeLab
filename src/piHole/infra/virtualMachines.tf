@@ -14,7 +14,7 @@ resource "proxmox_vm_qemu" "piHole" {
   cores       = 4
   scsihw      = "virtio-scsi-pci"
   bootdisk    = "scsi0"
-  agent       = 1 
+  agent       = 1
   disk {
     slot    = 0
     size    = "32G"
@@ -22,7 +22,8 @@ resource "proxmox_vm_qemu" "piHole" {
     storage = "local-btrfs"
   }
   network {
-    model  = "virtio"
-    bridge = "vmbr0"
+    model   = "virtio"
+    bridge  = "vmbr0"
+    macaddr = "6E:AE:58:3D:2A:58"
   }
 }
