@@ -6,12 +6,14 @@ crash.log
 crash.*.log
 *.tfvars
 *.tfvars.json
-override.tf
-override.tf.json
+*override.tf
+*override.tf.json
 *_override.tf
 *_override.tf.json
-.terraformrc
-terraform.rc
+*.terraformrc
+*terraform.rc
+*noble-server-cloudimg-amd64.img
+*.terraform.lock.hcl
 
 # OpenStack credentials
 src/OpenStack/clouds.yaml
@@ -21,3 +23,4 @@ src/OpenStack/openrc.sh
 # Local .env files
 **/.env
 **/.env.*
+

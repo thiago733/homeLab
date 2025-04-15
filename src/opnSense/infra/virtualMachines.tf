@@ -22,9 +22,8 @@ resource "proxmox_vm_qemu" "opnSense" {
     storage = "local-btrfs"
   }
   network {
-    model  = "virtio"
-    bridge = "vmbr0"
-    bridge = "vmbr1"
+    model   = "virtio"
+    bridge  = "vmbr0"
     macaddr = "92:54:08:65:ea:1a"
   }
 }
