@@ -2,4 +2,6 @@
 .terraform*
 *.tfstate*
 terraform.tfvars
+clouds.yaml
 
+src/OpenStack/credentials.sh
