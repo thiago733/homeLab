@@ -8,10 +8,7 @@ terraform {
   }
 }
 
+# Using clouds.yaml for authentication
 provider "openstack" {
-  user_name   = "admin"
-  tenant_name = "admin"
-  password    = "0fDNqBcAY1NR8phFe60lrnbfgh0jyD7hu7HN1g3y"
-  auth_url    = "http://192.168.1.254:5000/v3"
-  region      = "RegionOne"
+  cloud = "kolla-admin"
 }
