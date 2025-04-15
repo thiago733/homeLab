@@ -1,6 +1,23 @@
-*.img
-.terraform*
-*.tfstate*
-terraform.tfvars
-clouds.yaml
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# OpenStack credentials
+src/OpenStack/clouds.yaml
 src/OpenStack/credentials.sh
+src/OpenStack/openrc.sh
+
+# Local .env files
+**/.env
+**/.env.*
